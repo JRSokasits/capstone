@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>target page for button link test</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000000;
+      color: #005500;
+    }
+    h1 {
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h1>this is the second page</h1>
+    <button onclick = "goToFirstPage()">go to starting page</button>
+    <button onclick = "goToThirdPage()">go to third page</button>
+    <script>
+      function goToFirstPage() {
+        window.location.href ="index.html";
+      }
+      function goToThirdPage() {
+        window.location.href = "test3.html"
+      }
+    </script>
+          <h3>temporary picture test</h3>
+      <img src ="./linktest/evilsciencebattleduck.jpg" />
+</body>
+</html>
